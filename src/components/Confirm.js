@@ -47,18 +47,17 @@ export class Confirm extends Component {
         const {narrative0, causeFactor1, narrative1, causeFactor2, narrative2, causeFactor3, narrative3, humanFactor1, narrative4, humanFactor2, narrative5, humanFactor3, narrative6} = values
         return (
             <MuiThemeProvider>
-                <Stepper
-                activeStep = {values.step}
-                />
+                    <Stepper
+                    activeStep = {values.step}
+                    />
                 <React.Fragment>
                     
                     <br/>
                     
-                    <div className="moreRoom shift8">
-
+                    <h1 style={{marginTop:"4rem", color:"#1448b3",fontVariant: 'small-caps', fontWeight:"600"}}>
+                    All steps completed - you're finished
+                    </h1>
                     
-                    
-                    </div>
 
                     <Button style = {styles.button} size="large" variant="outlined" color="secondary"  onClick = {this.back}>
                        Back

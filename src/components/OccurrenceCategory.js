@@ -74,7 +74,7 @@ export class FormPersonalDetails extends Component {
                         <br/>
                         
 
-                        <FormControl style = {{minWidth:300, fontVariant: 'small-caps'}}>
+                        <FormControl style = {{minWidth:250, fontVariant: 'small-caps'}}>
                         <InputLabel id="demo-simple-select-label">Damage Level</InputLabel>
                             <Select
                                 labelId="demo-simple-select-label"

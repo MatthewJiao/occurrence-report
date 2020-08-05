@@ -93,7 +93,7 @@ export class MissionDescription extends Component {
                         </FormControl>
                         <br/>
                         <br/>
-                        <FormControl style = {{minWidth:250, fontVariant: 'small-caps'}}>
+                        <FormControl style = {{minWidth:300, fontVariant: 'small-caps'}}>
                         <InputLabel id="demo-simple-select-label">Location</InputLabel>
                         <Select
                             labelId="demo-simple-select-label"

@@ -43,7 +43,7 @@ export class AircraftDescription extends Component {
                         id="outlined-multiline-static"
                         label="Make and Model"
                         
-                        placeholder="XXXXXX"
+                        placeholder="XXXXXXXXXXX   XXXXXXXXXXX"
                         style = {{minWidth:500, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('makeAndModel')}
@@ -56,7 +56,7 @@ export class AircraftDescription extends Component {
                         label="Weight of Aircraft"
                         
                         placeholder="kg"
-                        style = {{minWidth:500, fontVariant: 'small-caps'}}
+                        style = {{minWidth:200, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('weight')}
                         defaultValue = {values.weight}
@@ -82,8 +82,8 @@ export class AircraftDescription extends Component {
                         id="outlined-multiline-static"
                         label="Time Since New"
                         
-                        placeholder="HH:MM"
-                        style = {{minWidth:500, fontVariant: 'small-caps'}}
+                        placeholder="hh:mm"
+                        style = {{minWidth:300, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('timeSinceNew')}
                         defaultValue = {values.timeSinceNew}
@@ -107,7 +107,7 @@ export class AircraftDescription extends Component {
                         id="outlined-multiline-static"
                         label="Enter MTOW"
                         
-                        placeholder="MTOW"
+                        placeholder="mtow"
                         style = {{minWidth:500, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('MTOW')}
@@ -119,8 +119,8 @@ export class AircraftDescription extends Component {
                         id="outlined-multiline-static"
                         label="Time Since Last Inspection"
                         
-                        placeholder="HH:MM"
-                        style = {{minWidth:500, fontVariant: 'small-caps'}}
+                        placeholder="hh:mm"
+                        style = {{minWidth:300, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('timeSinceLastInspection')}
                         defaultValue = {values.timeSinceLastInspection}

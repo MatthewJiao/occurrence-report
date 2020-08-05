@@ -56,7 +56,7 @@ function getStepContent(step) {
     case 8:
       return 'Preventative Measures';
     case 9:
-      return 'Confirm';
+      return '';
     default:
       return 'Unknown';
   }
@@ -106,12 +106,12 @@ export default function HorizontalLinearStepper(props) {
         })}
       </Stepper>
       <div>
-        {activeStep === steps.length-1 ? (
+        {activeStep === steps.length ? (
           <div>
-            <Typography className={classes.instructions}>
+            <Typography style={{margin:'auto'}} className={classes.instructions}>
               All steps completed - you&apos;re finished
             </Typography>
-            
+          
           </div>
         ) : (
             <Typography className={classes.instructions}>{getStepContent(activeStep)}</Typography>

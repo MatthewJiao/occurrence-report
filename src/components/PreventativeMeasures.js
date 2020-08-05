@@ -98,7 +98,7 @@ export class PreventativeMeasures extends Component {
                         id="outlined-multiline-static"
                         label="Date of Implementation"
                         
-                        placeholder="YYYY/MM/DD"
+                        placeholder="yyyy/mm/dd"
                         style = {{minWidth:200, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('dateOfImplementation1')}
@@ -148,7 +148,7 @@ export class PreventativeMeasures extends Component {
                         id="outlined-multiline-static"
                         label="Date of Implementation"
                         
-                        placeholder="YYYY/MM/DD"
+                        placeholder="yyyy/mm/dd"
                         style = {{minWidth:200, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('dateOfImplementation2')}
@@ -198,13 +198,12 @@ export class PreventativeMeasures extends Component {
                         id="outlined-multiline-static"
                         label="Date of Implementation"
                         
-                        placeholder="YYYY/MM/DD"
+                        placeholder="yyyy/mm/dd"
                         style = {{minWidth:200, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('dateOfImplementation3')}
                         defaultValue = {dateOfImplementation3}
                     />
-                    <br/>
                     <br/>
                     </div>
 

@@ -47,7 +47,7 @@ export class FormUserDetails extends Component {
                         label="Report Number"
                         
                         placeholder="######"
-                        style = {{minWidth:200,  fontVariant: 'small-caps'}}
+                        style = {{minWidth:150,  fontVariant: 'small-caps'}}
                         onChange={handleChange('reportNumber')}
                         defaultValue = {values.reportNumber}
                     /> 
@@ -67,8 +67,8 @@ export class FormUserDetails extends Component {
                     <br/>
                     <FormControl component="fieldset">
                         
-                        <FormLabel component="stat" style = {{fontVariant: 'small-caps'}}>Status</FormLabel>
-                        <RadioGroup row aria-label="status" name="status1" value={values.status} onChange={handleChange('status')} style = {{fontVariant: 'small-caps'}}>
+                        <FormLabel component="stat" style = {{minWidth:300, fontVariant: 'small-caps'}}>Status</FormLabel>
+                        <RadioGroup row aria-label="status" name="status1" value={values.status} onChange={handleChange('status')} style = {{minWidth:300, fontVariant: 'small-caps'}}>
                             <FormControlLabel value="draft" control={<Radio />} label="Draft" />
                             <FormControlLabel value="investigation" control={<Radio />} label="Publish for Investigation" />
                             <FormControlLabel value="final" control={<Radio />} label="Publish for Final Report" />
@@ -81,7 +81,7 @@ export class FormUserDetails extends Component {
                         label="Enter Time"
                         
                         placeholder="HH:MM"
-                        style = {{minWidth:200,fontVariant: 'small-caps'}}
+                        style = {{minWidth:250,fontVariant: 'small-caps'}}
 
                         onChange={handleChange('time')}
                         defaultValue = {values.time}

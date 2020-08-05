@@ -51,7 +51,7 @@ export class PersonnelConditions extends Component {
                     <br/>
                     <div className="moreRoom shift7">
                     
-                    <FormControl style = {{minWidth:200,fontVariant: 'small-caps'}}>
+                    <FormControl style = {{minWidth:250,fontVariant: 'small-caps'}}>
                         <InputLabel id="demo-simple-select-label">Occupation</InputLabel>
                         <Select
                             labelId="demo-simple-select-label"
