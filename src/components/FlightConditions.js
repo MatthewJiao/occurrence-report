@@ -108,7 +108,7 @@ export class FlightConditions extends Component {
                             id="outlined-multiline-static"
                             label="Temperature"
                             
-                            placeholder="C"
+                            placeholder="c"
                             style = {{minWidth:300, fontVariant: 'small-caps'}}
 
                             onChange={handleChange('temperature')}
@@ -123,7 +123,7 @@ export class FlightConditions extends Component {
                             id="outlined-multiline-static"
                             label="Ceiling Altitude"
                             
-                            placeholder="M"
+                            placeholder="m"
                             style = {{minWidth:300, fontVariant: 'small-caps'}}
 
                             onChange={handleChange('ceilingAltitude')}
@@ -138,7 +138,7 @@ export class FlightConditions extends Component {
                             id="outlined-multiline-static"
                             label="Wind Direction"
                             
-                            placeholder="DD/MM/SS"
+                            placeholder="dd/mm/ss"
                             style = {{minWidth:300, fontVariant: 'small-caps'}}
 
                             onChange={handleChange('windDirection')}

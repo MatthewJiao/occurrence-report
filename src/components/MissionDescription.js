@@ -138,7 +138,7 @@ export class MissionDescription extends Component {
                             id="outlined-multiline-static"
                             label="Geographic Coordinates"
                             
-                            placeholder="DD/MM/SS"
+                            placeholder="dd/mm/ss"
                             style = {{minWidth:300, fontVariant: 'small-caps'}}
 
                             onChange={handleChange('geoCoordinates')}

@@ -46,7 +46,7 @@ export class FormUserDetails extends Component {
                         id="outlined-multiline-static"
                         label="Report Number"
                         
-                        placeholder="######"
+                        placeholder="##########"
                         style = {{minWidth:150,  fontVariant: 'small-caps'}}
                         onChange={handleChange('reportNumber')}
                         defaultValue = {values.reportNumber}
@@ -57,7 +57,7 @@ export class FormUserDetails extends Component {
                         id="outlined-multiline-static"
                         label="Enter the Date of Occurrance"
                         
-                        placeholder="YYYY/MM/DD"
+                        placeholder="yyyy/mm/dd"
                         style = {{minWidth:300, fontVariant: 'small-caps'}}
 
                         onChange={handleChange('dateOfOccurance')}
@@ -80,7 +80,7 @@ export class FormUserDetails extends Component {
                         id="outlined-multiline-static"
                         label="Enter Time"
                         
-                        placeholder="HH:MM"
+                        placeholder="hh:mm"
                         style = {{minWidth:250,fontVariant: 'small-caps'}}
 
                         onChange={handleChange('time')}
