@@ -129,3 +129,12 @@
 }
 
 
+.footer{
+  display: block;
+  position:fixed;
+  bottom:0;
+  width: 20%;
+  padding: 0.5rem;
+  left: 83%;
+  font-size: 1rem;
+}

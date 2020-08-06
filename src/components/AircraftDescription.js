@@ -5,6 +5,7 @@ import TextField from "@material-ui/core/TextField";
 import RaisedButton from 'material-ui/RaisedButton'
 
 import Stepper from './Stepper'
+import Footer from './Footer'
 
 import Button from '@material-ui/core/Button';
 
@@ -140,6 +141,7 @@ export class AircraftDescription extends Component {
 
 
                 </React.Fragment>
+            <Footer/>
             </MuiThemeProvider>
         )
     }

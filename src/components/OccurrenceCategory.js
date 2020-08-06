@@ -13,6 +13,7 @@ import FormLabel from '@material-ui/core/FormLabel';
 import '../App.css';
 
 import Stepper from './Stepper'
+import Footer from './Footer'
 
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
@@ -119,6 +120,7 @@ export class FormPersonalDetails extends Component {
 
 
                 </React.Fragment>
+            <Footer/>
             </MuiThemeProvider>
         )
     }

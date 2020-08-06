@@ -11,6 +11,8 @@ import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 
 import Stepper from './Stepper'
+import Footer from './Footer'
+
 
 import Button from '@material-ui/core/Button';
 
@@ -108,6 +110,7 @@ export class FormUserDetails extends Component {
 
 
                 </React.Fragment>
+                <Footer/>
             </MuiThemeProvider>
         )
     }

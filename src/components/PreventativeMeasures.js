@@ -20,6 +20,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from "@material-ui/core/TextField";
 
 import Stepper from './Stepper'
+import Footer from './Footer'
 
 import Button from '@material-ui/core/Button';
 
@@ -221,6 +222,7 @@ export class PreventativeMeasures extends Component {
 
 
                 </React.Fragment>
+            <Footer/>
             </MuiThemeProvider>
         )
     }

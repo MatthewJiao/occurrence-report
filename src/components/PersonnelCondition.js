@@ -18,6 +18,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Stepper from './Stepper'
+import Footer from './Footer'
 
 import Button from '@material-ui/core/Button';
 
@@ -157,6 +158,7 @@ export class PersonnelConditions extends Component {
 
 
                 </React.Fragment>
+            <Footer/>
             </MuiThemeProvider>
         )
     }
