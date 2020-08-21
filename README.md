@@ -11,7 +11,7 @@ Publicly available versions of the source code are only implemented halfway.
 ## Available Scripts
 In the project directory, you can run:
 
-### npm i
+### `npm i`
 
 then run 
 
